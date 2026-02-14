@@ -1,0 +1,25 @@
+{
+  "name": "wiim-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.3.6",
+    "next": "16.1.6",
+    "node-ssdp": "^4.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "upnp-device-client": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/node-ssdp": "^4.0.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

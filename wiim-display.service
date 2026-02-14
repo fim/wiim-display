@@ -1,0 +1,15 @@
+[Unit]
+Description=WiiM Display - Next.js Now Playing Display
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/Users/fim/code/wiim-display
+ExecStart=/usr/bin/npm start
+Restart=on-failure
+RestartSec=5
+Environment=NODE_ENV=production
+Environment=PORT=3000
+
+[Install]
+WantedBy=multi-user.target
